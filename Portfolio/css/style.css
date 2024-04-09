@@ -1,0 +1,211 @@
+*{
+    margin:0;
+    padding: 0;
+    scrollbar-width: 0;
+}
+body{
+    background-color: #14131E;
+    color: #ffffff;
+    /* background: url(../images/star1.png); */
+    
+}
+::-webkit-scrollbar
+{
+    width: 8px;
+
+}
+::-webkit-scrollbar-track
+{
+    background-color: #d0c7dd;
+    border-radius: 5px;
+    margin-top: 1px;
+}
+::-webkit-scrollbar-thumb
+{
+    background: linear-gradient(#284ad4, #ba27d4);
+    border-radius: 5px;
+}
+header
+{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #19162A;
+    z-index: 1;
+}
+span
+{
+    color: #c96bda;
+}
+.navbar
+{
+    
+}
+.header-col-1
+{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.header-col-1 a{
+    text-decoration: none;
+    color: #B968C7;
+}
+.header-col-2
+{
+   
+}
+.hyp-links
+{
+    text-align: center;
+}
+.hyp-links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+.hyp-links a:hover {
+    color: #c96bda;
+}
+.hyp-links i {
+    color: #fff;
+    font-size: 1rem;
+    padding-right: 5px;
+}
+.hyp-links a:hover>i {
+    color: #c96bda;
+}
+
+.hyp-links-row div
+{
+    
+}
+
+/*Navbar section end */
+
+/* main section */
+
+.devloper-pic img
+{
+    height: 475px;
+    padding: 5vh 0 0 10vh;
+}
+
+.name-sec
+{
+    margin-top: 20vh;
+}
+.name
+{
+    padding: 16vh 0 0 10vh;
+}
+.name p{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #fff;
+}
+.name p span{
+    font-size: 2.65rem;
+    color: #c96bda;
+    font-weight: 450;
+}
+#element
+{
+    font-size:2.7rem ;
+}
+
+span.typed-cursor.typed-cursor--blink
+{
+    font-size: 2.5rem;
+    z-index: 0;
+}
+.typed-cursor {
+  font-size: 2.5rem;
+  z-index: 0;
+}
+/* Intro Section */
+
+.intro-sec
+{
+    margin-top: 150px;
+   
+    margin-bottom: 18vh;
+}
+
+.intro-sec h1{
+   padding-left: 20px;
+}
+
+.intro-sec p 
+{
+    font-size: 1.25rem;
+    
+}
+.profile-pic
+{
+    text-align: center;
+    padding-top: 30px;
+}
+.intro-sec img
+{
+
+    height:350px;
+    
+}
+
+
+/* Find me */
+
+.find-me
+{
+    margin-bottom: 12vh;
+    text-align: center;
+}
+.find-me h1
+{
+    font-weight: 400;
+}
+.find-me a
+{
+   
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 5px;
+    padding: 5px;
+    color: #fff;
+    
+}
+.find-me a:hover{
+    color: #9978cf;
+}
+.find-me p
+{
+    font-size: 1.05rem;
+}
+
+/* Footer */
+
+footer
+{
+    height: 60px;
+    background-color:#19162A ;
+    font-size: 1.02rem;
+    text-align: center;
+    padding-top: 18px;
+}
+.copyright i
+{
+    font-size: 11px;
+}
+
+.footer-icon a
+{
+    text-decoration: none;
+    font-size: 14px;
+    margin: 5px;
+    padding: 5px;
+    color: #fff;
+}
+

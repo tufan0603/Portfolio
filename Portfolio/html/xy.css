@@ -1,0 +1,28 @@
+.cont
+{
+    border: 1px solid black;
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+.col
+{
+    width: 50%;
+}
+.col2
+{
+    width: 50%;
+}
+.col2 ul
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}
+.col2 ul li
+{
+    list-style-type: none;
+    width: 20%;
+    
+}

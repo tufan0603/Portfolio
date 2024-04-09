@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    scrollbar-width: 0;
+}
+
+body {
+    background-color: #14131E;
+    color: #fff;
+
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #19162A;
+    z-index: 1;
+
+}
+
+span {
+    color: #000000;
+    font-weight: 500;
+}
+
+.navbar {}
+
+.header-col-1 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.header-col-1 a {
+    text-decoration: none;
+    color: #B968C7;
+}
+
+.header-col-2 {}
+
+.hyp-links {
+    text-align: center;
+
+    /*padding-top: 1.2%;*/
+
+}
+
+.hyp-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+
+.hyp-links a:hover {
+    color: #c96bda;
+}
+
+.hyp-links i {
+    color: #fff;
+    font-size: 1rem;
+    padding-top: -5px;
+    padding-right: 5px;
+}
+
+.hyp-links a:hover>i {
+    color: #c96bda;
+}
+
+.hyp-links-row div {}
+
+
+/* ------input-box------ */
+
+.contact {
+    position: relative;
+    top: 130px;
+    margin-bottom: 200px;
+
+}
+.contact>.row
+{
+
+}
+.input-box {}
+
+
+
+.container input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 0;
+    outline: none;
+    background-color: #f8f8f8;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    outline: none;
+    margin: 8px 0 8px 0;
+}
+
+.input-box {
+    background-color: #332c64;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    /* box-shadow:  white; */
+}
+
+.input-box h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.input-box button {
+    width: 100px;
+    border-radius: 4px;
+    border: none;
+}
+
+.button .col {
+    text-align: center;
+}
+
+.button input {
+    width: 100px;
+
+}
+/* Address */
+
+.address {
+    background-color: #ffffff;
+    color: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.address h3
+{
+        text-align: center;
+        padding: 10px;
+    
+}
+.address .row
+{
+    padding: 12px 10px;
+    margin: 8px 0;
+    font-size: 1.1rem;
+}
+
+
+
+
+/* Footer */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #19162A;
+    font-size: 1.02rem;
+    text-align: center;
+    padding-top: 18px;
+
+}
+
+.copyright i {
+    font-size: 11px;
+}
+
+.footer-icon a {
+    text-decoration: none;
+    font-size: 14px;
+    margin: 5px;
+    padding: 5px;
+    color: #fff;
+}
